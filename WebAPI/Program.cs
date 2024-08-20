@@ -1,5 +1,8 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
+using Business.DependencyResolvers.Autofac;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 
@@ -11,14 +14,22 @@ builder.Services.AddControllers();
 //IProductService istenen bir yer varsa ona ProductManager ver (IoC)
 //Biri constructorda IProductService isterse ona arka planda ProductManager ver demek (referans)
 //Data içermeyecek
-builder.Services.AddSingleton<IProductService,ProductManager>();
 //ProductManagerda IProductDala baðlý
-builder.Services.AddSingleton<IProductDal, EfProductDal>();
+//builder.Services.AddSingleton<IProductService,ProductManager>();
+//builder.Services.AddSingleton<IProductDal, EfProductDal>();
+
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//Autofac kullanýmý
+builder.Host.UseServiceProviderFactory(services => new AutofacServiceProviderFactory()).
+    ConfigureContainer<ContainerBuilder>(builder => 
+    { 
+        builder.RegisterModule(new AutofacBusinessModule()); 
+    });
 
 var app = builder.Build();
 
@@ -28,6 +39,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 
