@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6AR6iZpBF4qVk6ugEnM/Ap5LfVhkpQ/E71fSGQ5Te4Gd4nITXs8IocQpPzCRp4wAPLYHYpSWiWkFZT3M9dPUqA==",
+  "dgSpecHash": "+EIwB8OmpHWx3YYCvskwKCC1CP36jwHvm/P/t852ZmJ5AkzgEjR0E6ZHdxas7/Df5FB+C08KRerygz+obH8vzQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\emrez\\source\\repos\\MyFinalProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\emrez\\.nuget\\packages\\autofac.extensions.dependencyinjection\\9.0.0\\autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\emrez\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\emrez\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\emrez\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\emrez\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\emrez\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\emrez\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
