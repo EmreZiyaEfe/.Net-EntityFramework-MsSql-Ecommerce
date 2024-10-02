@@ -70,3 +70,7 @@ C:\Users\emrez\source\repos\MyFinalProject\ConsoleUI\bin\Debug\net6.0\FluentVali
 C:\Users\emrez\source\repos\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
 C:\Users\emrez\source\repos\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\emrez\source\repos\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\emrez\source\repos\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+C:\Users\emrez\source\repos\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\emrez\source\repos\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\emrez\source\repos\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
