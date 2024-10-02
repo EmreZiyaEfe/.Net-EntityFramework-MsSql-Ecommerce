@@ -58,6 +58,7 @@ namespace Business.Concrete
             _productDal.Delete(product);
         }
 
+        [CacheAspect] // key,value
         public IDataResult<List<Product>> GetAll()
         {
             //İş kodları
